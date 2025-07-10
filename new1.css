@@ -1,0 +1,15 @@
+*{
+    background-color: blue;
+}
+.form1{
+    background-color: chartreuse;
+    
+    color: black;
+    height: 100px;
+    width: 250px;
+    padding: 100px;
+}
+#hover{
+    width: 100;
+    cursor: pointer;
+}

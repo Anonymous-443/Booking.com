@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+
+         }
+         h2{
+            color: white;
+            padding-left: 300px;
+        }
+        .container{
+            display: flex;
+            border: 1px solid rgb(35, 35, 165);
+            margin-top: -0.5rem;
+            margin-inline-end: -1rem;
+            margin-inline-start: -1rem;
+            background-color: rgb(35, 35, 165);
+        }
+        .container1{
+            border: 1px solid white;
+            height: 500px;
+            width: 400px;
+            display: flex;
+            align-content: center;
+            /* align-items: center; */
+            justify-content: left;
+            margin-top: 10px;
+            padding-top: 20px;
+        }
+        #p{
+            position: absolute;
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+        }
+        #email{
+            position: absolute;
+            margin-top: 80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #input{
+            position: absolute;
+            margin-top: 100px;
+            opacity: 40%;
+            
+        }
+        #button{
+            margin-top: 140px;
+            border: 1px solid black;
+            position: relative;
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            align-content: center;
+            background-color: rgb(49, 49, 240);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Booking.com</h2>
+    </div>
+    <center><div class="container1">
+        <p id="p">Sign in or create an account</p>
+        <p id="email">Email address</p>
+        <div id="input">
+            <input type="text" placeholder="Enter your email address" required style="width: 170%; height: 50%;border-radius: 5px;">
+        </div>
+        <div id="button" onclick="window.location.href='Password.html';">
+            <p>Continue with email</p>
+        </div>
+
+    </div></center> 
+</body>
+</html>
